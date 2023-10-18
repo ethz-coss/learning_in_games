@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning_in_games"
+authors = [
+    {name = "Cesare Carissimo", email = "cesare.carissimo@gess.ethz.ch"},
+]
+description = "A place to collect games and learning algorithms for the study of their dynamics and standardization"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["reinforcement learning", "game theory", "q-learning"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "jupyter",
+    "nolds"
+]
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["learning_in_games"]
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
