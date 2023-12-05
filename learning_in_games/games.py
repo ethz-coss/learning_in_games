@@ -11,6 +11,7 @@ class GameConfig:
     n_agents: int
     n_actions: int
     n_states: int
+    n_iter: int
 
 
 @dataclass
