@@ -2,7 +2,7 @@
 This package contains games and learning methods implemented as python functions.
 
 ## Citing
-If you have found any part of this work useful or relevant to your research, please cite our article:
+The code in this repository was used to produce the following paper:
 
 ```
 @article{carissimo2024counter,
