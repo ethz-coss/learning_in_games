@@ -1,6 +1,23 @@
 # Learning in Games
 This package contains games and learning methods implemented as python functions.
 
+## Citing
+If you have found any part of this work useful or relevant to your research, please cite our article:
+
+```
+@article{carissimo2024counter,
+  title={Counter-intuitive effects of Q-learning exploration in a congestion dilemma},
+  author={Carissimo, Cesare},
+  journal={IEEE Access},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+## Acknowledgment
+This work was funded by European Union’s Horizon 2020 Research and Innovation Programme through the Distributed Intelligence & Technology for Traffic & Mobility Management ([DIT4TraM](https://dit4tram.eu/)) (Grant Number: 953783)
+
+
 ## Games
 - Routings Games
   - Initial Braess Network
@@ -17,7 +34,6 @@ This package contains games and learning methods implemented as python functions
 - Bellman Update Rule
 - epsilon greedy action selection
 - boltzman action selection (smooth Q-learning)
-- follow the regularized leader (FTRL) [under construction]
 
 
 ## Notes
