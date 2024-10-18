@@ -1,8 +1,8 @@
 # Learning in Games
-This package contains games and learning methods implemented as python functions.
+This package contains games and learning methods implemented as python functions. The package was created to study the dynamics of Q-learning in congestion games, and was later expanded to include a series of other settings from game theory.
 
 ## Citing
-The code in this repository was used to produce the following paper:
+The code in this repository was used to produce the following paper which investigated the effects of Q-learning in the Braess Paradox, and found some counter-intuivtive behaviour for the exploration rate of Q-learners which led to positive welfare effects which could escape the worst Price of Anarchy.
 
 ```
 @article{carissimo2024counter,
