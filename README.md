@@ -17,8 +17,8 @@ The code in this repository was used to produce the following paper:
 ## Acknowledgment
 This work was funded by European Union’s Horizon 2020 Research and Innovation Programme through the Distributed Intelligence & Technology for Traffic & Mobility Management ([DIT4TraM](https://dit4tram.eu/)) (Grant Number: 953783)
 
-
-## Games
+## Contents
+### Games
 - Routings Games
   - Initial Braess Network
   - Augmented Braess Network
@@ -30,20 +30,20 @@ This work was funded by European Union’s Horizon 2020 Research and Innovation 
 - Duopoly Pricing Game
 - Public Goods Game
 
-## Reinforcement Learning Algorithms
+### Reinforcement Learning Algorithms
 - Bellman Update Rule
 - epsilon greedy action selection
 - boltzman action selection (smooth Q-learning)
 
 
-## Notes
+### Notes
 what are the features of the package that are most important?
 - the many implemented environments specific to game theory
 - the implementation of Q-learning with easy extensions of its variants
 - implementation of all functions as vectorized NumPy operations
 
 
-## steps to make this a package
+### steps to make this a package
 - [x] use pip requirements, and make sure only the necessary requirements are present
 - [x] use dataclasses to achieve modularity, where possible, needed for:
   - run simulation code to know which parameters it needs, e.g.
